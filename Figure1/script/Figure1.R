@@ -13,18 +13,18 @@ lapply(packages, library, character.only = TRUE)
 ##-------------
 ##Loading data
 ##Clinical information obtaning from cBioportal 
-clinical <- fread("~/Downloads/article/laml/data/laml_tcga/data_clinical_patient.txt", sep="\t", header=T)
+clinical <- fread("Figure1/data/data_clinical_patient.txt", sep="\t", header=T)
 
 ##Labeling the 173 samples into 2 group 'FLT3 Mutant' and 'FLT3 wildtype'
-designTSV <- fread("/home/bacdao/Downloads/article/laml/data/design.tsv", sep="\t", header=T)
+designTSV <- fread("Figure1/data/design.tsv", sep="\t", header=T)
 
 # DEGs file from cbioportal
-deg <- fread("/home/bacdao/Downloads/article/laml/data/deg.tsv", sep = "\t", header = T)
+deg <- fread("Figure1/data/deg.tsv", sep = "\t", header = T)
 # dim(deg)
 # [1] 19000   10
 
 #Most anti-correlated probes file from cbioportal
-acp <- fread("/home/bacdao/Downloads/article/laml/data/acp.tsv", header = T, sep = "\t")
+acp <- fread("Figure1/data/acp.tsv", header = T, sep = "\t")
 # dim(acp)
 # [1] 255  10
 
