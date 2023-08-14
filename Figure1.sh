@@ -1,16 +1,14 @@
 #####Figure1
 
 ###R
-##Loading R library
-library(ggplot2)
-library(data.table)
-library(ggrepel)
-library(readxl)
-library(ggpubr)
-library(viridis)
-library(dplyr)
-library(gghalves)
-library(VennDiagram)
+# List of packages
+packages <- c("ggplot2", "data.table", "ggrepel", "readxl", "ggpubr", 
+              "viridis", "dplyr", "gghalves", "VennDiagram")
+
+# Install and load packages
+install.packages(packages, dependencies = TRUE)
+lapply(packages, library, character.only = TRUE)
+
 
 ##-------------
 ##Loading data
