@@ -1,0 +1,21 @@
+Clinical Attribute,Attribute Type,Statistical Test,p-Value,q-Value
+Fraction Genome Altered,Sample,Wilcoxon Test,1.128E-4,2.481E-3
+Blast Count,Patient,Wilcoxon Test,0.0128,0.129
+Year Cancer Initial Diagnosis,Patient,Wilcoxon Test,0.0286,0.158
+Race Category,Patient,Chi-squared Test,0.0384,0.169
+Neoadjuvant Therapy Type Administered Prior To Resection Text,Patient,Chi-squared Test,0.0726,0.266
+Molecular Analysis Performed Indicator,Patient,Chi-squared Test,0.138,0.433
+Platelet count preresection,Patient,Wilcoxon Test,0.302,0.811
+Other Patient ID,Patient,Chi-squared Test,0.464,0.811
+Other Sample ID,Sample,Chi-squared Test,0.464,0.811
+Diagnosis Age,Patient,Wilcoxon Test,0.481,0.811
+Abnormal Lymphocyte Percent,Patient,Wilcoxon Test,0.557,0.811
+FAB,Patient,Chi-squared Test,0.592,0.811
+Mutation Count,Sample,Wilcoxon Test,0.615,0.811
+Ethnicity Category,Patient,Chi-squared Test,0.628,0.811
+TMB (nonsynonymous),Sample,Wilcoxon Test,0.674,0.811
+Cytogenetic abnormality type,Patient,Chi-squared Test,0.688,0.811
+Basophils Cell Count,Patient,Wilcoxon Test,0.700,0.811
+Atra Exposure,Patient,Chi-squared Test,0.943,0.948
+Prior Cancer Diagnosis Occurence,Patient,Chi-squared Test,0.945,0.948
+Sex,Patient,Chi-squared Test,0.948,0.948
